@@ -18,6 +18,7 @@ def insert_one_by_one(collection, num_rec):
     this function inserts num_rec records to DB one by one
     and return the total time taken in the process
     '''
+    collection.remove()
     start_time = time.time()
     for i in range(num_rec):
         data = {
@@ -33,6 +34,7 @@ def insert_in_bulk(collection, num_rec):
     this function inserts num_rec records to DB in bulk
     and return the total time taken in the process
     '''
+    collection.remove()
     start_time = time.time()
     bulk_data = []
     for i in range(num_rec):
