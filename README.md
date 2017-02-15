@@ -33,7 +33,7 @@ Table showing time required to update 100,000 documents in mongoDB with given bu
 |------|---------------|
 | 1    | 46.47 |
 | 2    | 29.66 |
-| 4    | 20.414 |
+| 4    | 20.41 |
 | 8    | 15.35 |
 | 16   | 12.73 |
 | 32   | 10.78 |
@@ -41,5 +41,5 @@ Table showing time required to update 100,000 documents in mongoDB with given bu
 | 128  | 9.58 |
 | 256  | 9.47 |
 | 512  | 9.27  |
-| 1024 | 9.33741092682 |
+| 1024 | 9.33 |
 PS: there is index on field in find query
