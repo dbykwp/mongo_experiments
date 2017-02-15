@@ -1,4 +1,4 @@
-# MongDB experiments
+# MongoDB experiments
 To find efficiency gain by bulk queries over one by one query.
 The motive behind this project is to find the exact efficiency gain by firing
 bulk insert/update query over firing query one by one.
@@ -42,4 +42,3 @@ Table showing time required to update 100,000 documents in mongoDB with given bu
 | 256  | 9.47 |
 | 512  | 9.27  |
 | 1024 | 9.33 |
-PS: there is index on field in find query
